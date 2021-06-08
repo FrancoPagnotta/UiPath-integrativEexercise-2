@@ -69,7 +69,6 @@
       <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
       <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
       <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
-      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
   <Sequence DisplayName="Sequence - www.IMDb.com" sap:VirtualizedContainerService.HintSize="518,2111" sap2010:WorkflowViewState.IdRef="Sequence_37">
@@ -310,7 +309,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:LogMessage>
-    <Sequence DisplayName="Sequence - Write Range" sap:VirtualizedContainerService.HintSize="476,207" sap2010:WorkflowViewState.IdRef="Sequence_35">
+    <Sequence DisplayName="Sequence - Write Range " sap:VirtualizedContainerService.HintSize="476,207" sap2010:WorkflowViewState.IdRef="Sequence_35">
       <Sequence.Variables>
         <Variable x:TypeArguments="x:String" Name="textDataTable" />
       </Sequence.Variables>
@@ -320,7 +319,7 @@
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:WriteRange AddHeaders="True" DataTable="[out_ExtractDataTable]" DisplayName="Write Range" sap:VirtualizedContainerService.HintSize="334,115" sap2010:WorkflowViewState.IdRef="WriteRange_3" SheetName="Sheet1" WorkbookPath="Movies.xlsx">
+      <ui:WriteRange AddHeaders="True" DataTable="[out_ExtractDataTable]" DisplayName="Write Range - out_ExtractDataTable" sap:VirtualizedContainerService.HintSize="334,115" sap2010:WorkflowViewState.IdRef="WriteRange_3" SheetName="Sheet1" WorkbookPath="Movies.xlsx">
         <ui:WriteRange.StartingCell>
           <InArgument x:TypeArguments="x:String">
             <Literal x:TypeArguments="x:String" Value="" />
